@@ -51,8 +51,11 @@ nav {
   justify-content: center;
   text-align: center;
   min-height: 80vh;
-  background: linear-gradient(135deg, rgba(26,26,46,0.7) 0%, rgba(22,33,62,0.7) 50%, rgba(15,52,96,0.7) 100%),
-              url('img/a_03_01.JPG') center/cover no-repeat;
+  background-image: linear-gradient(135deg, rgba(26,26,46,0.7) 0%, rgba(22,33,62,0.7) 50%, rgba(15,52,96,0.7) 100%),
+                    url('img/a_03_01.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   padding: 2rem;
 }
